@@ -5,10 +5,10 @@ import TrafficSignal from './component/TrafficSignal';
 
 function App() {
   return (
-    <main>
+    <div className="container">
       <Cars />
       <TrafficSignal />
-    </main>    
+    </div>
   );
 }
 

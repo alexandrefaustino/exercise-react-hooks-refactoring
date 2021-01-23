@@ -15,12 +15,11 @@ function Provider({ children }) {
     setCars({
      ...cars, [car]: side,
     });    
-  };
+  }; 
 
   const changeSignal = (signalColor) => {
     setColor({ color: signalColor });
   };
-
 
   return (
     <CarsContext.Provider value={{moveCar, cars, signal, changeSignal}}>
