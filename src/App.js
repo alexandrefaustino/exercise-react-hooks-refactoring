@@ -1,11 +1,9 @@
 import React from 'react';
+import TicTacToe from './TicTacToe';
 import './App.css';
-import Cars from './Cars';
 
 function App() {
-  return (
-    <Cars />
-  );
+  return <TicTacToe />;
 }
 
 export default App;
